@@ -1,4 +1,4 @@
-## Accelerated Mobile Pages for Magento
+## Accelerated Mobile Pages⚡ for Magento
 
 'Mobile web is slow, clunky and [a] frustrating experience' - [AMP Home Page](https://www.ampproject.org/) 
 
