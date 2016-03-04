@@ -16,6 +16,8 @@
 					</action>
 				</block>
 
+				<block type="core/template" name="MageAMPCSS" as="MageAMPCSS" template="page/html/styles.phtml" />
+
 				<!-- No user javascript is allowed -->
 				<action method="removeItem"><type>js</type><script>prototype/prototype.js</script></action>
 				<action method="removeItem"><type>js</type><script>lib/ccard.js</script></action>
@@ -33,7 +35,7 @@
 				<action method="unsetChild"><name>js_cookies</name></action>
 				<action method="unsetChild"><name>optional_zip_countries</name></action>
 
-				<!-- No css is allowed -->
+				<!-- No external css is allowed -->
 				<action method="removeItem"><type>skin_css</type><name>css/styles.css</name></action>
 				<action method="removeItem"><type>skin_css</type><name>css/widgets.css</name></action>
 				<action method="removeItem"><type>skin_css</type><name>css/print.css</name></action>
