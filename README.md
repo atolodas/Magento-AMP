@@ -1,4 +1,4 @@
-## Accelerated Mobile Pages⚡ for Magento
+# Accelerated Mobile Pages⚡ for Magento
 
 'Mobile web is slow, clunky and [a] frustrating experience' - [AMP Home Page](https://www.ampproject.org/) 
 
@@ -7,7 +7,7 @@ Magento 1.x is in the extreme of slow, the only real thing we can do is cache an
 ## Why Read Only?
 Magento 1.x needs JavaScript to do almost anything on the platform. ~~Because I wanted to get this out fast~~ For that reason when creating this package I decided to put together a barebones example of AMP's for Magento.
 
-# More information on AMP⚡
+## More information on AMP⚡
 [AMP HTML](https://www.ampproject.org/docs/get_started/about-amp.html) is a way to build web pages for static content that render with reliable, fast performance. It is our attempt at fixing what many perceive as painfully slow page load times – especially when reading content on the mobile web.
 
 If you are creating AMP pages, check out the docs on [ampproject.org](https://www.ampproject.org/).
