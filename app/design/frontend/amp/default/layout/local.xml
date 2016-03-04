@@ -8,8 +8,15 @@
 		
 		<reference name="root">
 			<reference name="head">
-			
-				<!-- No javascript is allowed -->
+				
+				
+				<block type="core/text" name="google.cdn.ampproject">
+					<action method="setText">
+						<text><![CDATA[<script src="https://cdn.ampproject.org/v0.js" async></script>]]></text>
+					</action>
+				</block>
+
+				<!-- No user javascript is allowed -->
 				<action method="removeItem"><type>js</type><script>prototype/prototype.js</script></action>
 				<action method="removeItem"><type>js</type><script>lib/ccard.js</script></action>
 				<action method="removeItem"><type>js</type><script>prototype/validation.js</script></action>
@@ -24,6 +31,7 @@
 				<action method="removeItem"><type>js</type><script>mage/translate.js</script></action>
 				<action method="removeItem"><type>js</type><script>mage/cookies.js</script></action>
 				<action method="unsetChild"><name>js_cookies</name></action>
+				<action method="unsetChild"><name>optional_zip_countries</name></action>
 
 				<!-- No css is allowed -->
 				<action method="removeItem"><type>skin_css</type><name>css/styles.css</name></action>
