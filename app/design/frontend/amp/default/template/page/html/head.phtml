@@ -6,7 +6,7 @@
 	<link rel="icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
 	<link rel="shortcut icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
 	<?php echo $this->getChildHtml() ?>
-<?php $currentUrl = Mage::helper('core/url')->getCurrentUrl();$bodytag = str_replace("/amp/", "/", $currentUrl); ?>
+	<?php $currentUrl = Mage::helper('core/url')->getCurrentUrl();$bodytag = str_replace("/amp/", "/", $currentUrl); ?>
 	
 	<link rel="canonical" href="<?php echo $bodytag; ?>" />
 	

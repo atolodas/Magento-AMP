@@ -9,13 +9,19 @@
 		<reference name="root">
 			<reference name="head">
 				
-				
-				<block type="core/text" name="google.cdn.ampproject">
+				<block type="core/text" name="amps.cdn.v0">
 					<action method="setText">
 						<text><![CDATA[<script src="https://cdn.ampproject.org/v0.js" async></script>]]></text>
 					</action>
 				</block>
-
+				
+				<block type="core/text" name="amps.cdn.usernotification">
+					<action method="setText">
+						<text><![CDATA[<script custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js" async></script>]]></text>
+					</action>
+				</block>
+				
+				
 				<block type="core/template" name="MageAMPCSS" as="MageAMPCSS" template="page/html/styles.phtml" />
 
 				<!-- No user javascript is allowed -->
