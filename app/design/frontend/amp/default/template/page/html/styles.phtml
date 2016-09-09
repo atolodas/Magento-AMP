@@ -7,6 +7,8 @@
 <amp-analytics type="googleanalytics"></amp-analytics>
 
 <style amp-custom>
+	
+/* Document Level */
 html {
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -15,6 +17,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 16px;
     font-family: Roboto,Helvetica,Arial,sans-serif;
 }
+
+/* Header Styles */
 header.title-bar {
 	background: #232f3e;
 	border-bottom: 0;
@@ -25,7 +29,19 @@ header.title-bar {
 	vertical-align:middle;
 }
 
-.amp-sidebar-headopen {
+header .logo {
+	display: inline-block;
+	text-decoration: none;
+}
+
+header .logo img {
+	-webkit-filter:invert(100%);
+	width: 40px;
+	vertical-align:middle;
+}
+
+/* AMP Sidebar styles */
+header .amp-sidebar-headopen {
 	vertical-align:middle;
 	width: 30px;
     margin-right: 20px;
@@ -61,17 +77,6 @@ h3.sidebar-logo {
 	margin-top: 16px;
 	/* padding: 10px; */
 	padding-left: 16px;
-}
-
-header .logo {
-	display: inline-block;
-	text-decoration: none;
-}
-
-header .logo img {
-	-webkit-filter:invert(100%);
-	width: 40px;
-	vertical-align:middle;
 }
 
 amp-sidebar {
