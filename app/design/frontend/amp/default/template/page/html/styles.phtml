@@ -1,10 +1,20 @@
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js" async></script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
 <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script> 
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 <amp-analytics type="googleanalytics"></amp-analytics>
 
-
 <style amp-custom>
+html {
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
 header.title-bar {
 	background: #232f3e;
 	border-bottom: 0;
@@ -30,8 +40,10 @@ header.title-bar {
 
 .sidebar-links a {
 	display: block;
-	padding: 10px 30px;
-	color: #000;
+	padding-left: 10px;
+	color: rgba(0,0,0,.87);
+	line-height: 40px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
 }
 
 header .logo {
