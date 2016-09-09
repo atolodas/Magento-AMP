@@ -1,0 +1,18 @@
+{
+    "name": "byjord/Magento-AMP",
+    "license": "GPL-3.0",
+    "type": "magento-module",
+    "description": "Accelerated Mobile Pages (Google AMPs) for Magento.",
+    "homepage": "https://github.com/byjord/Magento-AMP.git",
+    "require": {
+        "php": ">=5.3",
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Jordan Parker",
+            "email": "jord@frpaco.com",
+            "role": "Author/Maintainer"
+        }
+    ]
+}
