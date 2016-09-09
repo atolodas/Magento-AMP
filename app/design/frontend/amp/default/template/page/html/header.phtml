@@ -1,5 +1,6 @@
 <header class="title-bar clearfix">
 	<div class="wrapper">
+		<img amp-img-id="AMP_3" alt="navigation" role="button" on="tap:sidebar.open" class="-amp-fill-content -amp-replaced-content" src="http://ampbyexample.com/img/ic_menu_white_2x_web_24dp.png">
 		<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo">⚡ <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
 	</div>
 </header>
@@ -7,9 +8,9 @@
 
   <amp-sidebar id='sidebar'
       layout="nodisplay"
-      side="right">
+      side="left">
     <amp-img class='amp-close-image'
-        src="/img/ic_close_black_18dp_2x.png"
+        src="http://ampbyexample.com/img/ic_close_black_18dp_2x.png"
         width="20"
         height="20"
         alt="close sidebar"
@@ -48,6 +49,3 @@
       <li> Nav item 6</li>
     </ul>
   </amp-sidebar>
-  <button on='tap:sidebar.toggle'>Toggle sidebar</button>
-  <button on='tap:sidebar.open'>Open sidebar</button>
-  <button on='tap:sidebar.close'>Close sidebar</button>
